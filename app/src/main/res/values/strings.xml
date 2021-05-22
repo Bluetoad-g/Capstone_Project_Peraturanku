@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Peraturanku</string>
+    <string name="title_home">Home</string>
+    <string name="title_surf">Surf</string>
+    <string name="title_collections">My Collection</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_uu">Undang-undang</string>
+    <string name="favorite">Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Cari peraturan disini</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dicoding.peraturanku.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_surf"
+        android:name="com.dicoding.peraturanku.ui.surf.SurfFragment"
+        android:label="@string/title_surf"
+        tools:layout="@layout/fragment_surf" />
+
+    <fragment
+        android:id="@+id/navigation_collections"
+        android:name="com.dicoding.peraturanku.ui.mycollection.MyCollectionsFragment"
+        android:label="@string/title_collections"
+        tools:layout="@layout/fragment_mycollections" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.dicoding.peraturanku.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile"/>
+</navigation>
