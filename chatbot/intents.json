@@ -1,0 +1,16 @@
+{"intents":[
+    {"tag": "greetings",
+        "patterns": ["hello","hi","hey","how are you?"],
+        "responses": ["Hello", "Hi","Hey"]
+    },
+    {"tag": "farewell",
+        "patterns": ["bye","later","see you","goodbye"],
+        "responses": ["Bye :)", "Goodbye", "Sad to see you go :("]
+    },
+    {"tag": "shop",
+        "patterns": ["can you help me?","i need a help","help me please"],
+        "responses": ["What can i do for you?", "May I help you?","I'm listening"]
+    }  
+]
+
+}
