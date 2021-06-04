@@ -1,16 +1,94 @@
 {"intents":[
+    {"tag": "noanswer",
+        "patterns": [""],
+        "responses": ["Maaf, aku tidak mengerti", "Maaf, aku tidak mengerti. Silahkan ketik ulang", "Aku tidak yakin apa maksudmu"],
+        "context": [""]
+    },
     {"tag": "greetings",
-        "patterns": ["hello","hi","hey","how are you?"],
-        "responses": ["Hello", "Hi","Hey"]
+        "patterns": ["hai", "halo", "permisi", "hei", "test", "hi"],
+        "responses": ["Halo!, apa yang bisa saya bantu?", "Hai, senang bertemu denganmu! ketik tanya jika kamu ingin bertanya.", "Hai, ada yang bisa saya bantu?", "Selamat datang di Peraturanku Bot! Apa yang bisa saya bantu?"],
+        "context": [""]
     },
     {"tag": "farewell",
-        "patterns": ["bye","later","see you","goodbye"],
-        "responses": ["Bye :)", "Goodbye", "Sad to see you go :("]
+        "patterns": ["sampai nanti", "selamat tinggal", "sampai jumpa", "bye"],
+        "responses": ["Sampai bertemu lain kali!", "Sampai jumpa!", "Selamat tinggal :)", "Sedihnya harus berpisah:("],
+        "context": [""]
     },
-    {"tag": "shop",
-        "patterns": ["can you help me?","i need a help","help me please"],
-        "responses": ["What can i do for you?", "May I help you?","I'm listening"]
-    }  
+    {"tag": "thanks",
+        "patterns": ["trims", "makasih", "terimakasih", "terima kasih", "terima kasih sudah membantu", "thanks", "thank you"],
+        "responses": ["Senang bisa membantu:)", "Tentu, tidak masalah", "Terimakasih kembali!"],
+        "context": [""]
+    },
+    {"tag": "sorry",
+        "patterns": ["maafkan aku", "maaf mengganggu", "sorry"],
+        "responses": ["Tentu, tidak masalah", "Tidak apa-apa"],
+        "context": [""]
+    },
+    {"tag": "agree",
+        "patterns": ["oke", "baiklah", "iya", "ok"],
+        "responses": ["Oke, apa ada lagi yang dapat saya bantu?"],
+        "context": [""]
+    },
+    {"tag": "disagree",
+        "patterns": ["tidak", "cukup", "tidak ada"],
+        "responses": ["Baiklah, untuk menyudahi sesi dengan bot silahkan ketik (stop) jika masih ingin bertanya ketik (tanya)"],
+        "context": [""]
+    },
+    {"tag": "help",
+        "patterns": ["dapatkah kamu membantuku?","aku butuh bantuan","apa kamu bisa membantu?", "tolong bantu aku", "help"],
+        "responses": ["Apa yang dapat aku lakukan?", "Bolehkah aku membantumu?", "Tentu, aku mendengarkan?", "Ada yang bisa di bantu?"],
+        "context": [""]
+    },
+    {"tag": "ask",
+        "patterns": ["tanya","aku ingin bertanya","mau tanya"],
+        "responses": ["Apa yang ingin kamu tanyakan?", "Tentu, silahkan bertanya", "Tentu, aku mendengarkan?", "Ada yang bisa di bantu?"],
+        "context": [""]
+    },
+    {"tag": "who",
+        "patterns": ["kamu siapa?", "siapa kamu?", "kamu ini apa?"],
+        "responses": ["Perkenalkan, aku adalah Peraturanku Bot!", "Aku adalah bot dari aplikasi peraturanku."],
+        "context": [""]
+    },
+    {"tag": "options",
+        "patterns": ["apa yang bisa kamu lakukan", "kamu bisa apa?", "bagaimana kamu membantuku?"],
+        "responses": ["Aku dapat menjelaskan tentang aplikasi Peraturanku, serta apa saja mengenai peraturan yang ada di aplikasi ini."],
+        "context": [""]
+    },
+    {"tag": "peraturanku",
+        "patterns": ["peraturanku itu apa?", "apa itu peraturanku?"],
+        "responses": ["Peraturanku adalah sebuah aplikasi yang berisi tentang Undang-Undang dan Peraturan yang ada di wilayah DKI Jakarta."],
+        "context": [""]
+    },
+    {"tag": "ask_peraturan",
+        "patterns": ["peraturan apa saja", "apa saja peraturan yang ada disini?"],
+        "responses": ["Saat ini aplikasi Peraturanku memiliki Peraturan Daerah, Peraturan Gubernur dan Keputusan Gubernur.", "Peraturan Daerah, Peraturan Gubernur dan Keputusan Gubernur."],
+        "context": [""]
+    },
+    {"tag": "perda",
+        "patterns": ["cari peraturan daerah", "buka peraturan daerah"],
+        "responses": ["Untuk memuat Peraturan Daerah silahkan kembali ke Menu Utama, lalu pilih Peraturan Daerah yang ingin kamu baca atau unduh."],
+        "context": [""]
+    },
+    {"tag": "pergub",
+        "patterns": ["cari peraturan gubernur", "buka peraturan gubernur"],
+        "responses": ["Untuk memuat Peraturan Gubernur silahkan kembali ke Menu Utama, lalu pilih Peraturan Gubernur yang ingin kamu baca atau unduh."],
+        "context": [""]
+    },
+    {"tag": "kep_gub",
+        "patterns": ["cari keputusan gubernur", "buka keputusan gubernur"],
+        "responses": ["Untuk memuat Keputusan Gubernur silahkan kembali ke Menu Utama, lalu pilih Keputusan Gubernur yang ingin kamu baca atau unduh."],
+        "context": [""]
+    },
+    {"tag": "lainnya",
+        "patterns": ["yang lain?", "selain itu?", "apa ada yang lain?"],
+        "responses": ["Saat ini aplikasi Peraturanku masih dalam proses perkembangan.", "Peraturanku masih dalam proses perkembangan."],
+        "context": [""]
+    },
+    {"tag": "when",
+        "patterns": ["sampai kapan?"],
+        "responses": ["Untuk saat ini kami masih belum bisa memastikan."],
+        "context": [""]
+    }
 ]
 
 }

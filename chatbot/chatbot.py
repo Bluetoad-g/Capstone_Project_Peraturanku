@@ -9,6 +9,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from numpy.lib.npyio import load
 
+import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
@@ -54,10 +55,25 @@ def get_response(intents_list, intents_json):
             break
     return result
 
-print("Bot on duty")
+TF_LITE_CHATBOT_MODEL = "chatbot.tflite"
+
+tf_lite_converter = tf.lite.TFLiteConverter.from_keras_model(model)
+tflite_model = tf_lite_converter.convert()
+
+open(TF_LITE_CHATBOT_MODEL, "wb").write(tflite_model)
+
+print("================================")
+print("         PERATURANKU BOT        ")
+print("================================")
+print("      Type (stop) for exit!     ")
+print(" ")
 
 while True:
-    message = input("")
+    message = input("YOU: ")
+    if message.lower() == "stop":
+        print("Terimakasih telah menggunakan Peraturanku Bot!")
+        break
+
     ints = predict_class(message)
     res = get_response(ints, intents)
-    print(res)
+    print("BOT: " + res)
