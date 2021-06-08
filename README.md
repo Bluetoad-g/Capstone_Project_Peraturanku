@@ -12,7 +12,6 @@ For the Android Application, you can run it by:
 > Open and run it with Android Studio.
 
 Nb: For now, the frontend code and the backend code are able to combine although it's still not perfect in some aspect or feature (example: when clicking another menu, the homepage will be shown and cover the supposed UI for the page).
-For the source code itself located in the src_code branch
 
 
 For the chatbot, you can run it by:
