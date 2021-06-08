@@ -1,6 +1,5 @@
 # Capstone_Project_Peraturanku 
 
-Readme untuk di Github:
 Peraturanku is a mobile application that has information about UUD 1945, Undang-Undang, PP, Perpres, and Perda. We want to make this application because as mentioned before there is only a little information about UUD and the other rules in Indonesia. We want to provide the citizens of Indonesia this application so they have knowledge about some new rules or maybe the rules that already exist or not used anymore.
 
 Because there is no integration between frontend, backend, and machine learning now. So we divide this application into 2 parts. The first part is the Android application developed by Mobile Development Team and Cloud Computing team. In this part, you can see a list of existing laws, information about it, and download links.
