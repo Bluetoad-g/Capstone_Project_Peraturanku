@@ -13,6 +13,7 @@ For the Android Application, you can run it by:
 
 Nb: For now, the frontend code and the backend code are able to combine although it's still not perfect in some aspect or feature (example: when clicking another menu, the homepage will be shown and cover the supposed UI for the page).
 
+The second part is Machine Learning developed by Machine Learning team. In this part, you can use chatbot. 
 There are two ways to run a chatbot:
 1. Using CMD
 > First, you need to have the prerequisites; in CMD you have to install python 3, TensorFlow, nltk, tensorflow.keras and to open it can use Visual Studio Code (recommended)
