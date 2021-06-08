@@ -16,7 +16,7 @@ For the source code itself located in the src_code branch
 
 
 For the chatbot, you can run it by:
-> Get the code from 'chatbot' directory on 'main'.
+> Get the code from 'chatbot' directory on 'main' branch.
 
 > You need to have the prerequisite; in CMD you need to install tensorflow, nltk, tensorflow.keras, python 3, also you need to have visual studio code (recommended),
 or maybe use google colab.
