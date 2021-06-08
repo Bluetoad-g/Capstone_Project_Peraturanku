@@ -13,11 +13,12 @@ For the Android Application, you can run it by:
 
 Nb: For now, the frontend code and the backend code are able to combine although it's still not perfect in some aspect or feature (example: when clicking another menu, the homepage will be shown and cover the supposed UI for the page).
 
+There are two ways to run a chatbot:
+1. Using CMD
+> First, you need to have the prerequisites; in CMD you have to install python 3, TensorFlow, nltk, tensorflow.keras and to open it can use Visual Studio Code (recommended)
+> Then open chatbot.py using CMD to start using the bot. The bot can reply to your greetings, saying thank you, answer your question, etc.  The bot don't need to be trained again because it had been trained. But if you want to see the results of the training data, you can open train.py in CMD.
 
-For the chatbot, you can run it by:
-> Get the code from 'chatbot' directory on 'main' branch.
-
-> You need to have the prerequisite; in CMD you need to install tensorflow, nltk, tensorflow.keras, python 3, also you need to have visual studio code (recommended),
-or maybe use google colab.
-
-> Then open the chatbot.py using the visual studio code or google colab and start using the bot, the bot can reply to your greetings, saying thank you, etc.. The bot don't need to be trained again because it had been trained.
+2. Using Google Collaboratory
+> First, open Google Collaboratory in your browser.
+> Then, upload the notebook file Chatbot_Peraturanku.ipynb.
+> Once open, before running it in Google Collaboratory you can enter the intents.json file manually or you can import it via your Google Drive by adjusting the location of the existing intents.json file.
