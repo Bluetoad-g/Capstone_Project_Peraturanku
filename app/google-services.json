@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "457386005988",
+    "firebase_url": "https://peraturanku-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "peraturanku",
+    "storage_bucket": "peraturanku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457386005988:android:6b7565fffdeffc1946e3f1",
+        "android_client_info": {
+          "package_name": "com.dicoding.peraturanku_fixed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457386005988-ot2tcie0j9fb1dtln4hrtd4q2bshbiu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLdgdoiwBT34mcksjwfwPORE2xQHDMLys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457386005988-ot2tcie0j9fb1dtln4hrtd4q2bshbiu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_frg"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/surf_frg"
+        android:icon="@drawable/ic_baseline_location_searching_24"
+        android:title="Surf"
+        />
+
+
+    <item
+        android:id="@+id/collection_frg"
+        android:icon="@drawable/ic_baseline_collections_24"
+        android:title="Collection"
+        />
+
+    <item
+        android:id="@+id/profile_frg"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="User"
+        />
+
+
+</menu>
